@@ -11,7 +11,7 @@ $( document ).ready( function(){
     operator = '';
     captureNum1 = false;
     // clear answer
-    $( '#outputP' ).text('');
+    updateOutput( '0' );
   });
 
   $( '#equalsButton' ).on( 'click', function(){
@@ -30,8 +30,12 @@ $( document ).ready( function(){
       success: function( response ){
         console.log( 'back from ajax with:', response );
         // receive an answer - response.answer
+        // set answer as new num0 to continue using Calculator
+        num0 = response.answer;
+        // reset num1
+        num1 = '';
         // display answer on DOM
-        $( '#outputP' ).text( response.answer );
+        updateOutput( response.answer );
       }
     }); // end ajax
   }); // end equalsButton on click
@@ -55,11 +59,18 @@ $( document ).ready( function(){
     // concatenate on to existing number
     if( captureNum1 ){
       num1 = num1 + myNumber;
+      updateOutput( num1 );
     }
     else{
       num0 = num0 + myNumber;
+      updateOutput( num0 );
     }
     console.log( 'num0:', num0, 'num1:', num1 );
     // it's Luke's fault that I'm hungry, nom init
   }); // end numberButton on click
+
+  var updateOutput = function( showMe ){
+    $( '#outputP' ).text( showMe );
+  }; // end updateOutput
+
 }); // end doc ready
