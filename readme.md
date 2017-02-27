@@ -15,22 +15,25 @@ Spin up JEN stack app:
 
 [x]test JQuery is working
 
-[]body-parser for POST
-
-[]POST route for '/math' test
-
 -= PRESENTATIONS/LUNCH =-
+
+[x]body-parser for POST
+
+[x]POST route for '/math' test
+
 
 client:
 -------
 
-[]Inputs for two numbers
+[x]Inputs for two numbers
 
-[]Buttons for mathematical operator
+[x]Buttons for mathematical operator
 
-[]'calculate' button
+[x]'calculate' button
 
-[]package input and send to Server
+[x]package input 
+
+[]send to Server
 
 Server:
 -------

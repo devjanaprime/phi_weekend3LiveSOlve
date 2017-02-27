@@ -8,6 +8,7 @@ var port = 9027;
 
 // uses
 app.use( express.static( 'public' ) );
+app.use( bodyParser.urlencoded( { extended: true } ) );
 
 // spin up server
 app.listen( port, function(){
