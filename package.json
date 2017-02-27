@@ -1,0 +1,34 @@
+{
+  "name": "phi_week3_live_solve",
+  "version": "1.0.0",
+  "description": "live solve for weekend 3 for Phi cohort",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjanaprime/phi_weekend3LiveSOlve.git"
+  },
+  "keywords": [
+    "phi",
+    "jquery",
+    "node",
+    "express",
+    "prime",
+    "blue",
+    "oyster",
+    "cult"
+  ],
+  "author": "@devjana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devjanaprime/phi_weekend3LiveSOlve/issues"
+  },
+  "homepage": "https://github.com/devjanaprime/phi_weekend3LiveSOlve#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1"
+  }
+}
