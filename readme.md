@@ -41,8 +41,8 @@ Server:
 
 Client:
 -------
-[ ] receive answer
+[]receive answer
 
-[] display on DOM
+[]display on DOM
 
-[ ]clear button
+- [ ]clear button
