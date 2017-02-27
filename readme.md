@@ -5,13 +5,17 @@ Server Side Calculator
 ----------------------
 Spin up JEN stack app:
 ----------------------
-[]node/express + JQuery
+[x]node/express server
 
-[]serving html file ('/' get url)
+[x] learn that port 5432 is BAD
 
-[]w/ sourced js file
+[x]serving html file ('/' get url)
 
-[]test JQuery is working
+[x]w/ sourced js file
+
+[x]test JQuery is working
+
+[]body-parser for POST
 
 []POST route for '/math' test
 
@@ -45,4 +49,8 @@ Client:
 
 []display on DOM
 
-- [ ]clear button
+[]clear button
+
+Stretch goals:
+--------------
+[] get checkbox md to work
