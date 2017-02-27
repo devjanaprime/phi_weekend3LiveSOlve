@@ -21,8 +21,9 @@ $( document ).ready( function(){
       data: objectToSend,
       success: function( response ){
         console.log( 'back from ajax with:', response );
-        // receive an answer
+        // receive an answer - response.answer
         // display answer on DOM
+        $( '#outputP' ).text( response.answer );
       }
     }); // end ajax
   }); // end operator button click

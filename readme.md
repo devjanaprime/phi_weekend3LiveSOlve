@@ -31,18 +31,18 @@ client:
 
 [x]'calculate' button
 
-[x]package input 
+[x]package input
 
-[]send to Server
+[x]send to Server
 
 Server:
 -------
 
-[]receive object
+[x]receive object
 
-[]determine the operation to do
+[x]determine the operation to do
 
-[]do math
+[x]do math
 
 []return answer
 
