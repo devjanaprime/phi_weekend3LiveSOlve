@@ -44,15 +44,15 @@ Server:
 
 [x]do math
 
-[]return answer
+[x]return answer
 
 Client:
 -------
-[]receive answer
+[x]receive answer
 
-[]display on DOM
+[x]display on DOM
 
-[]clear button
+[x]clear button
 
 Stretch goals:
 --------------

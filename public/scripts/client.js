@@ -1,6 +1,14 @@
 $( document ).ready( function(){
   console.log( 'JQ' );
 
+  $( '#clearButton' ).on( 'click', function(){
+    // empty our inputs
+    $( '#num0' ).val('');
+    $( '#num1' ).val('');
+    // clear answer
+    $( '#outputP' ).text('');
+  });
+
   $( '.operatorButton' ).on( 'click', function(){
     // what type of operator is this?
     var myOperator = $( this ).data( 'operator' );
